@@ -240,8 +240,8 @@ def temp_session():
     return session
 
 if __name__ == "__main__":
-    # deleteVpc(boto3.client("ec2"))
+    deleteVpc(boto3.client("ec2"))
     createVpcEndpoint(boto3.client("ec2"))
-    # setNewIpAddress(boto3.client("ec2"))
+    setNewIpAddress(boto3.client("ec2"))
     
 # https://www.learnaws.org/2022/09/30/aws-boto3-assume-role/
